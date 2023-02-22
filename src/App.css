@@ -1,0 +1,29 @@
+#wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
+#top-nav {
+  position: fixed;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: green;
+}
+
+#side-nav {
+  position: fixed;
+  width: 250px;
+  height:100vh;
+  overflow-y: scroll;
+  background-color: red;
+}
+
+#content-wrapper {
+  margin: 60px 0 0 250px;
+  padding: 0 30px;
+  /* overflow-y: scroll !important; */
+  background-color: blue;
+  margin-left: 100px;
+  height: 30px;
+}
